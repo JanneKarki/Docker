@@ -1,4 +1,4 @@
-## Security and optimization - Deployment pipeline practice
+## Security and optimization - Deployment pipeline
 
 Minimal Node-express app with simple "Hello world!"-message, containerized with Docker and CI/CD-pipeline with GitHub Actions. Github Actions automatically builds and pushes image to Docker Hub when code changes pushed to main branch. Watchtower watches these changes and restarts the running container with updated image.
  
