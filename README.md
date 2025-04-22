@@ -16,7 +16,7 @@ Access with browser http://localhost:8080
 
 
 To enable the GitHub Actions workflow to push images to Docker Hub, add `DOCKER_USERNAME` and `DOCKER_PASSWORD` (DockerHub-token) in github actions secrets.
-**GitHub > Your Repository > Settings > Secrets and variables > Actions**
+**GitHub > Repository > Settings > Secrets and variables > Actions**
 
 
 
