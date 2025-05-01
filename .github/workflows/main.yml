@@ -30,7 +30,7 @@ jobs:
           tags: ${{ secrets.DOCKER_USERNAME }}/express-app:latest
 
       - name: Install Railway CLI
-        run: npm install -g railway
+        run: npm install -g @railway/cli
 
       - name: Deploy to Railway
         env:
