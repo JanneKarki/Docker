@@ -1,6 +1,6 @@
 ## Security and optimization - Deployment pipeline
 
-Minimal Node-express app with simple "Hello world!"-message, containerized with Docker and CI/CD-pipeline with GitHub Actions. Github Actions automatically builds and pushes image to Docker Hub when code changes are pushed to main branch. Changes are also pushed to Railway cloud service, where app is running. Watchtower watches these changes locally and restarts the running container with updated image.
+Minimal Node-express app with simple "Hello world!"-message, containerized with Docker and CI/CD-pipeline with GitHub Actions. Github Actions automatically builds and pushes image to Docker Hub when code changes are pushed to main branch. Watchtower watches these changes locally and restarts the running container with updated image. Changes are also pushed to Railway cloud service, where the [app](https://docker-production-68a2.up.railway.app/) is running. 
 
 ## Run locally
 **Containerize with Docker:**
